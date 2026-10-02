@@ -1,0 +1,18 @@
+[
+  {"id": "kb-billing-duplicate", "category": "billing", "title": "Refunds for duplicate charges",
+   "body": "Duplicate charges are refunded automatically within five business days once confirmed. Check your invoice history for two identical payments on the same day. Reply with the invoice numbers if the refund has not arrived after five days."},
+  {"id": "kb-billing-invoice", "category": "billing", "title": "Updating invoice details and VAT",
+   "body": "You can update your billing address, VAT number and payment card under Settings, then Billing. Corrected invoices can be regenerated for the last twelve months. Price changes are announced by email thirty days in advance."},
+  {"id": "kb-tech-crash", "category": "technical", "title": "Troubleshooting crashes and failed uploads",
+   "body": "Update to the latest app version and clear the local cache. Uploads larger than the plan limit fail with an error, so check the file size first. If the crash continues, send the app version and the time of the crash."},
+  {"id": "kb-tech-api", "category": "technical", "title": "Diagnosing API errors, timeouts and slow dashboards",
+   "body": "Check the status page for incidents and retry with exponential backoff. A 500 error or timeout that persists should be reported with the request id from the response header. Large exports and sync jobs can be slow, so narrow the date range."},
+  {"id": "kb-access-reset", "category": "account_access", "title": "Resetting your password and unlocking your account",
+   "body": "Use the Forgot password link and check your spam folder for the reset email. Accounts unlock automatically thirty minutes after too many failed attempts. If you were removed from a workspace, ask the workspace admin to invite you again."},
+  {"id": "kb-access-2fa", "category": "account_access", "title": "Fixing two-factor authentication problems",
+   "body": "Make sure your phone clock is set to automatic, because time drift invalidates codes. Use a backup code if you have changed devices. Contact support with proof of ownership to reset two-factor authentication."},
+  {"id": "kb-feature-process", "category": "feature_request", "title": "How feature requests are reviewed",
+   "body": "Every request is logged and reviewed by the product team each month. Requests with many votes and a clear use case are prioritised on the public roadmap. You will be notified when a feature you requested ships."},
+  {"id": "kb-security-report", "category": "security", "title": "Reporting a security incident",
+   "body": "Change your password and revoke exposed API keys immediately. Do not click links in suspicious emails. The security team investigates every report and will contact you directly."}
+]
